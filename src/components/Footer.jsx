@@ -13,7 +13,7 @@ export default function Footer() {
     <footer className="border-t border-rose/10 bg-white/70">
       <div className="container-shell grid gap-12 py-14 md:grid-cols-[1.4fr_1fr_1fr]">
         <div className="space-y-4">
-          <p className="eyebrow">Sukun</p>
+          <p className="eyebrow">Jeetu</p>
           <h3 className="text-3xl font-semibold">
             Romantic planning for celebrations that feel effortless.
           </h3>

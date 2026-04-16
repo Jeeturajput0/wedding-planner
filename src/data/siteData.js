@@ -36,7 +36,7 @@ export const heroSlides = [
   },
   {
     title: "Curated celebrations for modern love stories.",
-    text: "Sukun brings together planning, decor, styling, and storytelling into one beautifully seamless experience.",
+    text: "jeetu brings together planning, decor, styling, and storytelling into one beautifully seamless experience.",
     image:
       "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1400&q=80",
   },
@@ -278,7 +278,7 @@ export const blogPosts = [
 export const companyHighlights = [
   {
     title: "Our Story",
-    text: "Sukun creates poetic celebrations rooted in warmth, beauty, and thoughtful hospitality. We blend logistics with a couture eye for detail.",
+    text: "jeetu creates poetic celebrations rooted in warmth, beauty, and thoughtful hospitality. We blend logistics with a couture eye for detail.",
     icon: Gem,
   },
   {
@@ -294,7 +294,7 @@ export const companyHighlights = [
 ];
 
 export const contactDetails = [
-  { label: "Studio", value: "xyz ,India" },
+  { label: "Studio", value: "Jeetu Rajput, Agra ,india" },
   { label: "Email", value: "jeeturajput@email.com" },
   { label: "Phone", value: "+91 78178 75621" },
 ];

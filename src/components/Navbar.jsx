@@ -16,7 +16,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-white/60 bg-white/70 backdrop-blur-xl">
       <div className="container-shell flex h-20 items-center justify-between">
         <Link to="/" className="flex items-end gap-2">
-          <span className="font-script text-4xl text-rose">Sukun</span>
+          <span className="font-script text-4xl text-rose">Jeetu</span>
           <span className="pb-2 text-xs uppercase tracking-[0.3em] text-ink/60">
             Weddings
           </span>
