@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Parisienne&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-champagne font-sans text-ink antialiased;
+    background-image:
+      radial-gradient(circle at top left, rgba(255, 255, 255, 0.95), transparent 34%),
+      radial-gradient(circle at top right, rgba(246, 209, 189, 0.5), transparent 25%),
+      linear-gradient(180deg, #fffdfb 0%, #faf5f0 100%);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-serif text-ink;
+  }
+
+  p {
+    @apply leading-7 text-ink/75;
+  }
+}
+
+@layer components {
+  .container-shell {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-space {
+    @apply py-16 md:py-20 lg:py-24;
+  }
+
+  .card-soft {
+    @apply rounded-[2rem] border border-white/60 bg-white/75 shadow-soft backdrop-blur-xl;
+  }
+
+  .button-primary {
+    @apply inline-flex items-center justify-center rounded-full bg-rose px-6 py-3 text-sm font-semibold text-white transition duration-300 hover:-translate-y-0.5 hover:bg-ink;
+  }
+
+  .button-secondary {
+    @apply inline-flex items-center justify-center rounded-full border border-rose/30 bg-white/70 px-6 py-3 text-sm font-semibold text-ink transition duration-300 hover:-translate-y-0.5 hover:border-rose hover:bg-rose/10;
+  }
+
+  .eyebrow {
+    @apply font-script text-3xl text-rose md:text-4xl;
+  }
+}
