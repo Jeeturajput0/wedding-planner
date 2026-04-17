@@ -12,6 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "corepack": "^0.34.6",
     "framer-motion": "^12.10.0",
     "lucide-react": "0.511.0",
     "react": "^18.3.1",
