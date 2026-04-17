@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "nodeVersion": "20",
+  "functions": {
+    "app/**/*": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
