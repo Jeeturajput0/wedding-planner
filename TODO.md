@@ -13,4 +13,5 @@ Local tests ✅.
 - [x] 3. Regenerate package-lock.json (`del package-lock.json && npm install`)
 - [x] 4. Verify `npm run build` ← Successful (dist/ generated)
 - [x] 5. Commit/push changes
-- [ ] 6. Retry Vercel deployment
+- [x] 6. Retry Vercel deployment ← Fixed deps hang; now \"vite Permission denied 126\" (CRLF fix below)
+- [x] 7. Fix package.json line endings (recreated with LF), regen lockfile, repush, redeploy ← package.json recreated, lockfile regenerated, build verified
